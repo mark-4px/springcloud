@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	
+	<logger name="org.springframework.test" level="ERROR" />
+	<logger name="com.alibaba.druid" level="ERROR" />
+	<logger name="o.s.jdbc.datasource" level="ERROR" />
+	
+	<logger name="com.mark.samples" level="INFO" />
+</configuration>
